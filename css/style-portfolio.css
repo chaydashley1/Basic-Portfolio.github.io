@@ -39,6 +39,7 @@ ul {
    }
 
    section{
+    border-top: #ff4040;
 
        float: left;
        height: 68px;
@@ -54,20 +55,19 @@ ul {
 
    body {
 
+
     margin: 0;
     background-color: rgba(224, 224, 224, 0.61);
 }
 
 .content {
-
     background-color: white;
-    height: 324px;
+    height: 381px;
    margin: 75px;
    padding: 2%;
    color: #ff4040;
    margin-top:25px;
    line-height: 1.5em;
-
    
 
 }
@@ -88,6 +88,8 @@ ul {
      
     }
 .bio{
+  border-top: solid 2px lightgray
+ ;
 
     float: left;
     position: relative;
@@ -119,6 +121,51 @@ a{
   display: block;
   top:17px;
 }
+
+
+/*photos*/
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+    .column {
+    float: left;
+    width:50%;
+  }
+
+    
+/*text over photos*/
+#wrap {
+    position:relative; 
+    width: 200px;  
+    height: 145px;
+    border: 1px solid grey
+}
+
+
+
+#text {
+z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    padding: 10px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+}
+
+
+  
+  
   
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
